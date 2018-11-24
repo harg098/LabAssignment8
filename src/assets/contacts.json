@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "firstName": "Harinder",
+        "lastName": "Gill",
+        "email": "harinder112@hotmail.com",
+        "phone": "(559) 212-2121",
+        "editing": false
+    },
+    {
+        "id": 2,
+        "firstName": "Donald",
+        "lastName": "Trump",
+        "email": "potus@whitehouse.gov",
+        "phone": "(559) 222-1111",
+        "editing": false
+    },
+    {
+        "id": 3,
+        "firstName": "Bill",
+        "lastName": "Nye",
+        "email": "science@nasa.gov",
+        "phone": "(559) 111-2222",
+        "editing": false
+    }
+]
