@@ -1,15 +1,20 @@
 
-interface IContact {
-
+export interface IContact {
     id?: number;
-    firstName?: string;
-    lastName?: string;
-    email?: string;
-    phone?: string;
+    firstName: string;
+    lastName: string;
+    email: string;
+    phone: string;
     editing?: boolean;
 }
 export class Contact {
 
+    id: number;
+    firstName: string;
+    lastName: string;
+    email: string;
+    phone: string;
+    editing: boolean;
 
     constructor(contact: IContact) {
         contact.editing = this.setState(contact);
